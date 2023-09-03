@@ -21,7 +21,7 @@ function Forecast({ weatherData }) {
   });
   return (
     <section className="flex flex-col mt-12 gap-4">
-      <h1 className="text-2xl text-center text-red-600">Forecast</h1>
+      <h1 className="text-2xl text-center text-gray-600">Forecast</h1>
       <div className="flex justify-evenly mt-4">
         {filteredWeather?.map((data, index) => (
           <div key={index} className="flex flex-col gap-2 items-center">
